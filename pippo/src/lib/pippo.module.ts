@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
+import { PippoComponent } from './pipppo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    PippoComponent
   ],
   imports: [
     BrowserModule,
   ],
-  exports: [AppComponent]
+  exports: [PippoComponent]
 })
-export class AppModule { }
+export class PippoModule { }
