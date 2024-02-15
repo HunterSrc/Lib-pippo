@@ -31,7 +31,7 @@
     MyLibComponent.ɵcmp = i0.ɵɵdefineComponent({ type: MyLibComponent, selectors: [["lib-my-lib"]], decls: 2, vars: 0, template: function MyLibComponent_Template(rf, ctx) {
             if (rf & 1) {
                 i0.ɵɵelementStart(0, "p");
-                i0.ɵɵtext(1, " my-lib works! ");
+                i0.ɵɵtext(1, " my-lib works! again! ");
                 i0.ɵɵelementEnd();
             }
         }, encapsulation: 2 });
@@ -40,7 +40,7 @@
                 type: i0.Component,
                 args: [{
                         selector: 'lib-my-lib',
-                        template: "\n    <p>\n      my-lib works!\n    </p>\n  ",
+                        template: "\n    <p>\n      my-lib works! again!\n    </p>\n  ",
                         styles: []
                     }]
             }], function () { return []; }, null);

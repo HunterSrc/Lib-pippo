@@ -20,7 +20,7 @@ class MyLibComponent {
 MyLibComponent.ɵfac = function MyLibComponent_Factory(t) { return new (t || MyLibComponent)(); };
 MyLibComponent.ɵcmp = ɵɵdefineComponent({ type: MyLibComponent, selectors: [["lib-my-lib"]], decls: 2, vars: 0, template: function MyLibComponent_Template(rf, ctx) { if (rf & 1) {
         ɵɵelementStart(0, "p");
-        ɵɵtext(1, " my-lib works! ");
+        ɵɵtext(1, " my-lib works! again! ");
         ɵɵelementEnd();
     } }, encapsulation: 2 });
 /*@__PURE__*/ (function () { ɵsetClassMetadata(MyLibComponent, [{
@@ -29,7 +29,7 @@ MyLibComponent.ɵcmp = ɵɵdefineComponent({ type: MyLibComponent, selectors: [[
                 selector: 'lib-my-lib',
                 template: `
     <p>
-      my-lib works!
+      my-lib works! again!
     </p>
   `,
                 styles: []
